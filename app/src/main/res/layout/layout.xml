@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    app:cardBackgroundColor="#83FFFFFF"
+    android:translationZ="5dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="4dp"
+        app:cardElevation="20dp"
+        android:translationZ="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backgroundImage"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/titleImg"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:elevation="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/titleImgShadow"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/easyBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/mediumBtn"
+                app:layout_constraintEnd_toStartOf="@+id/mediumBtn"
+                app:layout_constraintTop_toTopOf="@+id/mediumBtn">
+
+                <TextView
+                    android:id="@+id/easyText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/carterone_regular"
+                    android:gravity="center"
+                    android:text="EASY"
+                    android:textColor="#D5FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/easyLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:alpha="0.7"
+                    android:background="@drawable/ic_baseline_lock_24"
+                    android:backgroundTint="#FFFFFF"
+                    android:elevation="10dp" />
+
+                <ImageView
+                    android:id="@+id/easyImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/mediumBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/mediumText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/carterone_regular"
+                    android:gravity="center"
+                    android:text="MEDIUM"
+                    android:textColor="#D5FFFFFF"
+                    android:textStyle="bold"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/mediumImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                  />
+
+                <ImageView
+                    android:id="@+id/mediumLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:alpha="0.7"
+                    android:background="@drawable/ic_baseline_lock_24"
+                    android:backgroundTint="#FFFFFF"
+                    android:elevation="10dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/hardBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/mediumBtn"
+                app:layout_constraintStart_toEndOf="@+id/mediumBtn"
+                app:layout_constraintTop_toTopOf="@+id/mediumBtn">
+
+                <TextView
+                    android:id="@+id/hardText"
+                    android:layout_width="match_parent"
+                    android:alpha="0"
+                    android:elevation="6dp"
+                    android:fontFamily="@font/carterone_regular"
+                    android:gravity="center"
+                    android:text="HARD"
+                    android:textColor="#D5FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_height="match_parent"/>
+
+
+                <ImageView
+                    android:id="@+id/hardImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/hardLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:alpha="0.7"
+                    android:background="@drawable/ic_baseline_lock_24"
+                    android:backgroundTint="#FFFFFF"
+                    android:elevation="10dp" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/easyScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carterone_regular"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="5"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/easyBtn"
+                app:layout_constraintStart_toStartOf="@+id/easyBtn"
+                app:layout_constraintTop_toBottomOf="@+id/easyBtn" />
+
+            <TextView
+                android:id="@+id/mediumScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carterone_regular"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/mediumBtn"
+                app:layout_constraintStart_toStartOf="@+id/mediumBtn"
+                app:layout_constraintTop_toBottomOf="@+id/mediumBtn" />
+
+            <TextView
+                android:id="@+id/hardScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carterone_regular"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="5"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="@+id/hardBtn"
+                app:layout_constraintStart_toStartOf="@+id/hardBtn"
+                app:layout_constraintTop_toBottomOf="@+id/hardBtn" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Picture Match</string>
+
+    <string name="pair04">Pair : 0/4</string>
+    <string name="pair06">Pair : 0/6</string>
+    <string name="pair08">Pair : 0/8</string>
+    <string name="moves">Moves : 0</string>
+    <string name="high_score">high score</string>
+    <string name="myCrown">mycrown</string>
+    <string name="congratulation">CONGRATULATION</string>
+    <string name="well_done">Well Done</string>
+    <string name="oops">OOPS!</string>
+    <string name="click_any_one_of_them_to_show_all_images">CLICK ANY ONE OF THEM TO SHOW ALL IMAGES</string>
+    <string name="show_images">SHOW IMAGES</string>
+    <string name="qwer">qwerty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="unabletoshae">Unable to share this app</string>
+
+    <string name="aboutsound">Sound :\nMusic by Owl Glance from Pixabay.\nhttps://pixabay.com/music/christmas-owls-christmas-1932\nStar Music By Timmoor from Pixabay \nhttps://pixabay.com/music/christmas-merry-christmas-2444/</string>
+    <string name="aboutpixabay">Images : \nPixabay free license \nimages used in this app is from pixabay, Royalty free and not used any other website or app. \nDownload free images visit https://pixabay.com</string>
+    <string name="term">Term and Condition :\nBy downloading or using the app, these terms will automatically apply to you - you should make sure that you read them carefully before using the app. You\'re not allowed to copy, or modify any part of the app. You\'re not allowed to attempt to extract the source code of the app, and you also shouldn\'t try to translate the app into other language, or make derivative version. the app itself, and all the copyright, database rights and other intellectual property rights to it, still belongs to Falquon apps.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Banner_Ad_ID">ca-app-pub-2183728820366127/4278245377</string>
+    <string name="Interstitial_Ad_ID">ca-app-pub-2183728820366127/8747957512</string>
+
+
+</resources>

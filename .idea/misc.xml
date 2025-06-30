@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/circle_pregress_bar.xml" value="0.234" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/circle_shape.xml" value="0.15" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/circular_progress_drawable.xml" value="0.2375" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/customprogressbar.xml" value="0.1" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/flip_in.xml" value="0.115" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/flip_out.xml" value="0.115" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.151" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.151" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/ic_baseline_policy_24.xml" value="0.151" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.151" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.151" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/shadow.xml" value="0.1" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/drawable/tab_gradiant_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_about.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_alien_level3_.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_aliens_and_monster_level_2.xml" value="0.1" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_angel_2.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_cartoon.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_category_.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_fish_1.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_flag_1.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_fragment_container.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_fruit_1.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_game_1.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_privecy_policy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_score.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_splash_.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/activity_test2.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/fragment_hard_.xml" value="0.22" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/fragment_medium_.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/fragment_test_.xml" value="0.34193840579710144" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/grid_item.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/layout.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/lest_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Faizan Qadri/AndroidStudioProjects/Picture_Matching_Game/app/src/main/res/layout/menupopup.xml" value="0.17831813576494426" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

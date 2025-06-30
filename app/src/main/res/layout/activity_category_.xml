@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category_Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="4dp"
+                app:cardBackgroundColor="#83FFFFFF"
+                app:cardElevation="5dp"
+                android:layout_height="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hardScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/carterone_regular"
+                        android:shadowColor="@android:color/black"
+                        android:shadowRadius="5"
+                        android:text="High Score For Easy Level is 8\nHigh Score For Medium Level is 12\nHigh Score For Hard Level is 16\n"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintEnd_toEndOf="@+id/hardBtn"
+                        app:layout_constraintStart_toStartOf="@+id/hardBtn"
+                        app:layout_constraintTop_toBottomOf="@+id/hardBtn" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout1"
+                />
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout2"
+                />
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout3"
+                />
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout4"
+                />
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout5"
+                />
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout6"
+                />
+
+            <include
+                layout="@layout/layout"
+                android:id="@+id/customLayout7"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
